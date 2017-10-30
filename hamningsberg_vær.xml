@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Hamningberg</name>
+    <type>Bygd</type>
+    <country>Norge</country>
+    <timezone id="Europe/Oslo" utcoffsetMinutes="60" />
+    <location altitude="6" latitude="70.5411208438921" longitude="30.610872247983" geobase="ssr" geobaseid="327231" />
+  </location>
+  <credit>
+    <!--For å bruke gratis værdata fra Yr, MÅ du vise følgende tekst godt synlig på nettsiden din. Teksten skal være en lenke til URL-en som er spesifisert.-->
+    <!--Les mer om vilkår for bruk av gratis værdata + retningslinjer på 
+http://om.yr.no/verdata/ -->
+    <link text="Værvarsel fra Yr, levert av NRK og Meteorologisk institutt" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/varsel.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/varsel_time_for_time.xml" />
+    <link id="overview" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/" />
+    <link id="hourByHour" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/time_for_time.html" />
+    <link id="longTermForecast" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/langtidsvarsel.html" />
+    <link id="radar" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/radar.html" />
+    <link id="nowcast" url="http://www.yr.no/sted/Norge/Finnmark/Båtsfjord/Hamningberg/varsel_nu.xml" />
+  </links>
+  <meta>
+    <lastupdate>2017-10-30T10:04:26</lastupdate>
+    <nextupdate>2017-10-30T17:00:00</nextupdate>
+  </meta>
+  <sun rise="2017-10-30T07:24:27" set="2017-10-30T13:56:36" />
+  <forecast>
+    <text>
+      <location name="Hamningberg">
+        <time from="2017-10-30" to="2017-10-30">
+          <title>mandag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; I kyst- og fjordstrøkene vestlig liten kuling utsatte steder, periodevis stiv kuling på kysten i nord. Snøbyger, få eller ingen byger lengst øst og på Vidda. &lt;strong&gt;Slettnes fyr - Grense Jakobselv:&lt;/strong&gt; Vest og nordvest opptil liten kuling 12, kan hende stiv kuling 15 i vest. Snøbyger. Få byger lengst aust. Bølgehøyde: 1-2,5 m.</body>
+        </time>
+        <time from="2017-10-30" to="2017-10-30">
+          <title>mandag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; I kyst- og fjordstrøkene vestlig liten kuling utsatte steder, periodevis stiv kuling på kysten i nord. Snøbyger, få eller ingen byger lengst øst og på Vidda. &lt;strong&gt;Slettnes fyr - Grense Jakobselv:&lt;/strong&gt; Vest og nordvest opptil liten kuling 12, kan hende stiv kuling 15 i vest. Snøbyger. Få byger lengst aust. Bølgehøyde: 1-2,5 m.</body>
+        </time>
+        <time from="2017-10-31" to="2017-10-31">
+          <title>tirsdag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Første del av dagen vestlig liten kuling utsatte steder i kyst- og fjordstrøkene, ellers bris. Snøbyger, få eller ingen byger i indre strøk. &lt;strong&gt;Loppa - Grense Jakobselv:&lt;/strong&gt; Vestlig liten kuling 12 først på tirsdag, seinere bris. Snøbyger. Bølgehøyde: 2-3 m, minkende til omkring 2 m tirsdag formiddag. 1-2 m om kvelden.</body>
+        </time>
+        <time from="2017-10-31" to="2017-10-31">
+          <title>tirsdag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Første del av dagen vestlig liten kuling utsatte steder i kyst- og fjordstrøkene, ellers bris. Snøbyger, få eller ingen byger i indre strøk. &lt;strong&gt;Loppa - Grense Jakobselv:&lt;/strong&gt; Vestlig liten kuling 12 først på tirsdag, seinere bris. Snøbyger. Bølgehøyde: 2-3 m, minkende til omkring 2 m tirsdag formiddag. 1-2 m om kvelden.</body>
+        </time>
+        <time from="2017-11-01" to="2017-11-01">
+          <title>onsdag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Skiftende, senere sørlig bris, fra om ettermiddagen frisk bris utsatte steder. Skyet eller delvis skyet, stort sett oppholdsvær.</body>
+        </time>
+        <time from="2017-11-02" to="2017-11-02">
+          <title>torsdag</title>
+          <body>&lt;strong&gt;Troms og Finnmark:&lt;/strong&gt; Sør og søraustleg bris, aukande til liten kuling utsette stader. Skya og etterkvart litt snø, seinare regn i låglandet. Torsdag ettermiddag eller kveld overgang til vestleg bris, liten kuling i kyststroka. Regnbyer, snøbyer i høgda.</body>
+        </time>
+      </location>
+    </text>
+    <tabular>
+      <time from="2017-10-30T14:00:00" to="2017-10-30T18:00:00" period="2">
+        <!-- Valid from 2017-10-30T14:00:00 to 2017-10-30T18:00:00 -->
+        <symbol number="2" numberEx="2" name="Lettskyet" var="02d" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2017-10-30T14:00:00 -->
+        <windDirection deg="270.9" code="W" name="Vest" />
+        <windSpeed mps="8.6" name="Frisk bris" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="998.3" />
+      </time>
+      <time from="2017-10-30T18:00:00" to="2017-10-31T00:00:00" period="3">
+        <!-- Valid from 2017-10-30T18:00:00 to 2017-10-31T00:00:00 -->
+        <symbol number="2" numberEx="2" name="Lettskyet" var="02n" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2017-10-30T18:00:00 -->
+        <windDirection deg="263.7" code="W" name="Vest" />
+        <windSpeed mps="8.3" name="Frisk bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="998.2" />
+      </time>
+      <time from="2017-10-31T00:00:00" to="2017-10-31T06:00:00" period="0">
+        <!-- Valid from 2017-10-31T00:00:00 to 2017-10-31T06:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" minvalue="0" maxvalue="0.7" />
+        <!-- Valid at 2017-10-31T00:00:00 -->
+        <windDirection deg="259.7" code="W" name="Vest" />
+        <windSpeed mps="10.2" name="Frisk bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="997.8" />
+      </time>
+      <time from="2017-10-31T06:00:00" to="2017-10-31T12:00:00" period="1">
+        <!-- Valid from 2017-10-31T06:00:00 to 2017-10-31T12:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="2.1" />
+        <!-- Valid at 2017-10-31T06:00:00 -->
+        <windDirection deg="263.9" code="W" name="Vest" />
+        <windSpeed mps="11.1" name="Liten kuling" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="996.6" />
+      </time>
+      <time from="2017-10-31T12:00:00" to="2017-10-31T18:00:00" period="2">
+        <!-- Valid from 2017-10-31T12:00:00 to 2017-10-31T18:00:00 -->
+        <symbol number="5" numberEx="5" name="Regnbyger" var="05d" />
+        <precipitation value="1.1" minvalue="0.2" maxvalue="3.2" />
+        <!-- Valid at 2017-10-31T12:00:00 -->
+        <windDirection deg="264.0" code="W" name="Vest" />
+        <windSpeed mps="8.8" name="Frisk bris" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="998.1" />
+      </time>
+      <time from="2017-10-31T18:00:00" to="2017-11-01T00:00:00" period="3">
+        <!-- Valid from 2017-10-31T18:00:00 to 2017-11-01T00:00:00 -->
+        <symbol number="2" numberEx="2" name="Lettskyet" var="02n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-31T18:00:00 -->
+        <windDirection deg="267.8" code="W" name="Vest" />
+        <windSpeed mps="6.6" name="Laber bris" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1000.9" />
+      </time>
+      <time from="2017-11-01T00:00:00" to="2017-11-01T06:00:00" period="0">
+        <!-- Valid from 2017-11-01T00:00:00 to 2017-11-01T06:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-01T00:00:00 -->
+        <windDirection deg="261.6" code="W" name="Vest" />
+        <windSpeed mps="5.8" name="Laber bris" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1002.5" />
+      </time>
+      <time from="2017-11-01T06:00:00" to="2017-11-01T12:00:00" period="1">
+        <!-- Valid from 2017-11-01T06:00:00 to 2017-11-01T12:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-01T06:00:00 -->
+        <windDirection deg="250.6" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="5.3" name="Lett bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1002.8" />
+      </time>
+      <time from="2017-11-01T12:00:00" to="2017-11-01T18:00:00" period="2">
+        <!-- Valid from 2017-11-01T12:00:00 to 2017-11-01T18:00:00 -->
+        <symbol number="2" numberEx="2" name="Lettskyet" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-01T12:00:00 -->
+        <windDirection deg="247.6" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="6.1" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1002.1" />
+      </time>
+      <time from="2017-11-01T18:00:00" to="2017-11-02T00:00:00" period="3">
+        <!-- Valid from 2017-11-01T18:00:00 to 2017-11-02T00:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-01T18:00:00 -->
+        <windDirection deg="228.5" code="SW" name="Sørvest" />
+        <windSpeed mps="8.2" name="Frisk bris" />
+        <temperature unit="celsius" value="-3" />
+        <pressure unit="hPa" value="999.7" />
+      </time>
+      <time from="2017-11-02T01:00:00" to="2017-11-02T07:00:00" period="0">
+        <!-- Valid from 2017-11-02T01:00:00 to 2017-11-02T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-02T01:00:00 -->
+        <windDirection deg="212.9" code="SSW" name="Sør-sørvest" />
+        <windSpeed mps="5.9" name="Laber bris" />
+        <temperature unit="celsius" value="-3" />
+        <pressure unit="hPa" value="996.5" />
+      </time>
+      <time from="2017-11-02T07:00:00" to="2017-11-02T13:00:00" period="1">
+        <!-- Valid from 2017-11-02T07:00:00 to 2017-11-02T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-02T07:00:00 -->
+        <windDirection deg="188.7" code="S" name="Sør" />
+        <windSpeed mps="9.2" name="Frisk bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="990.7" />
+      </time>
+      <time from="2017-11-02T13:00:00" to="2017-11-02T19:00:00" period="2">
+        <!-- Valid from 2017-11-02T13:00:00 to 2017-11-02T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-02T13:00:00 -->
+        <windDirection deg="211.4" code="SSW" name="Sør-sørvest" />
+        <windSpeed mps="10.3" name="Frisk bris" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="985.2" />
+      </time>
+      <time from="2017-11-02T19:00:00" to="2017-11-03T01:00:00" period="3">
+        <!-- Valid from 2017-11-02T19:00:00 to 2017-11-03T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-02T19:00:00 -->
+        <windDirection deg="225.2" code="SW" name="Sørvest" />
+        <windSpeed mps="9.4" name="Frisk bris" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="981.8" />
+      </time>
+      <time from="2017-11-03T01:00:00" to="2017-11-03T07:00:00" period="0">
+        <!-- Valid from 2017-11-03T01:00:00 to 2017-11-03T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-03T01:00:00 -->
+        <windDirection deg="223.0" code="SW" name="Sørvest" />
+        <windSpeed mps="8.9" name="Frisk bris" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="983.5" />
+      </time>
+      <time from="2017-11-03T07:00:00" to="2017-11-03T13:00:00" period="1">
+        <!-- Valid from 2017-11-03T07:00:00 to 2017-11-03T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-03T07:00:00 -->
+        <windDirection deg="246.0" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="7.2" name="Laber bris" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="985.3" />
+      </time>
+      <time from="2017-11-03T13:00:00" to="2017-11-03T19:00:00" period="2">
+        <!-- Valid from 2017-11-03T13:00:00 to 2017-11-03T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-03T13:00:00 -->
+        <windDirection deg="279.6" code="W" name="Vest" />
+        <windSpeed mps="5.8" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="987.0" />
+      </time>
+      <time from="2017-11-03T19:00:00" to="2017-11-04T01:00:00" period="3">
+        <!-- Valid from 2017-11-03T19:00:00 to 2017-11-04T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-03T19:00:00 -->
+        <windDirection deg="248.3" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="5.6" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="986.8" />
+      </time>
+      <time from="2017-11-04T01:00:00" to="2017-11-04T07:00:00" period="0">
+        <!-- Valid from 2017-11-04T01:00:00 to 2017-11-04T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-04T01:00:00 -->
+        <windDirection deg="229.6" code="SW" name="Sørvest" />
+        <windSpeed mps="6.2" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="984.6" />
+      </time>
+      <time from="2017-11-04T07:00:00" to="2017-11-04T13:00:00" period="1">
+        <!-- Valid from 2017-11-04T07:00:00 to 2017-11-04T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-04T07:00:00 -->
+        <windDirection deg="217.5" code="SW" name="Sørvest" />
+        <windSpeed mps="6.4" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="983.6" />
+      </time>
+      <time from="2017-11-04T13:00:00" to="2017-11-04T19:00:00" period="2">
+        <!-- Valid from 2017-11-04T13:00:00 to 2017-11-04T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-04T13:00:00 -->
+        <windDirection deg="259.1" code="W" name="Vest" />
+        <windSpeed mps="6.7" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="984.9" />
+      </time>
+      <time from="2017-11-04T19:00:00" to="2017-11-05T01:00:00" period="3">
+        <!-- Valid from 2017-11-04T19:00:00 to 2017-11-05T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-04T19:00:00 -->
+        <windDirection deg="225.6" code="SW" name="Sørvest" />
+        <windSpeed mps="5.2" name="Lett bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="986.6" />
+      </time>
+      <time from="2017-11-05T01:00:00" to="2017-11-05T07:00:00" period="0">
+        <!-- Valid from 2017-11-05T01:00:00 to 2017-11-05T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-05T01:00:00 -->
+        <windDirection deg="235.6" code="SW" name="Sørvest" />
+        <windSpeed mps="5.9" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="991.3" />
+      </time>
+      <time from="2017-11-05T07:00:00" to="2017-11-05T13:00:00" period="1">
+        <!-- Valid from 2017-11-05T07:00:00 to 2017-11-05T13:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-05T07:00:00 -->
+        <windDirection deg="245.7" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="6.0" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="994.5" />
+      </time>
+      <time from="2017-11-05T13:00:00" to="2017-11-05T19:00:00" period="2">
+        <!-- Valid from 2017-11-05T13:00:00 to 2017-11-05T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-05T13:00:00 -->
+        <windDirection deg="248.5" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="6.1" name="Laber bris" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="998.4" />
+      </time>
+      <time from="2017-11-05T19:00:00" to="2017-11-06T01:00:00" period="3">
+        <!-- Valid from 2017-11-05T19:00:00 to 2017-11-06T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-05T19:00:00 -->
+        <windDirection deg="239.0" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="6.9" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1001.6" />
+      </time>
+      <time from="2017-11-06T01:00:00" to="2017-11-06T07:00:00" period="0">
+        <!-- Valid from 2017-11-06T01:00:00 to 2017-11-06T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-06T01:00:00 -->
+        <windDirection deg="239.3" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="6.6" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1006.3" />
+      </time>
+      <time from="2017-11-06T07:00:00" to="2017-11-06T13:00:00" period="1">
+        <!-- Valid from 2017-11-06T07:00:00 to 2017-11-06T13:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-06T07:00:00 -->
+        <windDirection deg="277.3" code="W" name="Vest" />
+        <windSpeed mps="6.8" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1008.9" />
+      </time>
+      <time from="2017-11-06T13:00:00" to="2017-11-06T19:00:00" period="2">
+        <!-- Valid from 2017-11-06T13:00:00 to 2017-11-06T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-06T13:00:00 -->
+        <windDirection deg="10.1" code="N" name="Nord" />
+        <windSpeed mps="6.6" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1012.6" />
+      </time>
+      <time from="2017-11-06T19:00:00" to="2017-11-07T01:00:00" period="3">
+        <!-- Valid from 2017-11-06T19:00:00 to 2017-11-07T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-06T19:00:00 -->
+        <windDirection deg="359.1" code="N" name="Nord" />
+        <windSpeed mps="6.7" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1014.1" />
+      </time>
+      <time from="2017-11-07T01:00:00" to="2017-11-07T07:00:00" period="0">
+        <!-- Valid from 2017-11-07T01:00:00 to 2017-11-07T07:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-07T01:00:00 -->
+        <windDirection deg="241.1" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="6.6" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1016.2" />
+      </time>
+      <time from="2017-11-07T07:00:00" to="2017-11-07T13:00:00" period="1">
+        <!-- Valid from 2017-11-07T07:00:00 to 2017-11-07T13:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-07T07:00:00 -->
+        <windDirection deg="31.4" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="7.0" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1019.4" />
+      </time>
+      <time from="2017-11-07T13:00:00" to="2017-11-07T19:00:00" period="2">
+        <!-- Valid from 2017-11-07T13:00:00 to 2017-11-07T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-07T13:00:00 -->
+        <windDirection deg="139.2" code="SE" name="Sørøst" />
+        <windSpeed mps="7.0" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1019.3" />
+      </time>
+      <time from="2017-11-07T19:00:00" to="2017-11-08T01:00:00" period="3">
+        <!-- Valid from 2017-11-07T19:00:00 to 2017-11-08T01:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-07T19:00:00 -->
+        <windDirection deg="344.4" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="6.7" name="Laber bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1019.6" />
+      </time>
+      <time from="2017-11-08T01:00:00" to="2017-11-08T07:00:00" period="0">
+        <!-- Valid from 2017-11-08T01:00:00 to 2017-11-08T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-08T01:00:00 -->
+        <windDirection deg="269.2" code="W" name="Vest" />
+        <windSpeed mps="7.9" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1020.1" />
+      </time>
+      <time from="2017-11-08T07:00:00" to="2017-11-08T13:00:00" period="1">
+        <!-- Valid from 2017-11-08T07:00:00 to 2017-11-08T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-08T07:00:00 -->
+        <windDirection deg="225.0" code="SW" name="Sørvest" />
+        <windSpeed mps="7.9" name="Laber bris" />
+        <temperature unit="celsius" value="0" />
+        <pressure unit="hPa" value="1017.4" />
+      </time>
+      <time from="2017-11-08T13:00:00" to="2017-11-08T19:00:00" period="2">
+        <!-- Valid from 2017-11-08T13:00:00 to 2017-11-08T19:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-11-08T13:00:00 -->
+        <windDirection deg="264.1" code="W" name="Vest" />
+        <windSpeed mps="8.0" name="Frisk bris" />
+        <temperature unit="celsius" value="-1" />
+        <pressure unit="hPa" value="1016.2" />
+      </time>
+    </tabular>
+  </forecast>
+  <observations>
+    <weatherstation stno="98550" sttype="eklima" name="Vardø radio" distance="26180" lat="70.37070" lon="31.09620" source="Meteorologisk Institutt">
+      <symbol number="3" name="Delvis skyet" time="2017-10-30T12:00:00Z" />
+      <temperature unit="celsius" value="0.4" time="2017-10-30T12:00:00Z" />
+      <windDirection deg="291.0" code="WNW" name="Vest-nordvest" time="2017-10-30T12:00:00Z" />
+      <windSpeed mps="6.3" name="Laber bris" time="2017-10-30T12:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="98580" sttype="eklima" name="Vardø lufthavn" distance="26283" lat="70.35450" lon="31.04400" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="-1.0" time="2017-10-30T12:00:00Z" />
+      <windDirection deg="273.0" code="W" name="Vest" time="2017-10-30T12:00:00Z" />
+      <windSpeed mps="6.8" name="Laber bris" time="2017-10-30T12:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="98400" sttype="eklima" name="Makkaur fyr" distance="27082" lat="70.70570" lon="30.07000" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="0.5" time="2017-10-30T12:00:00Z" />
+      <windDirection deg="259.0" code="W" name="Vest" time="2017-10-30T12:00:00Z" />
+      <windSpeed mps="6.2" name="Laber bris" time="2017-10-30T12:00:00Z" />
+    </weatherstation>
+  </observations>
+</weatherdata>
