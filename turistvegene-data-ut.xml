@@ -1,35 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><root xmlns="http://www.w3.org/1999/xhtml">
-<turistvegene>
-<turistveg>
-<title>Varanger</title>
-<length>160</length>
-<sealevel>123</sealevel>
-<totalferries>0</totalferries>
-<latitude-start>70.539118</latitude-start>
-<longitude-start>30.605791</longitude-start>
-<latitude-end>70.173942</latitude-end>
-<longitude-end>28.567617</longitude-end>
-<description_no>
-                  <p>Varanger handler om de lange linjene i landskapet, men også om de lange linjene bakover i historien. Varanger er ikke bare en fysisk opplevelse, du vil oppleve en ro langs denne vegen, som er vanskelig å forklare på noen annen måte enn at dette er et sted hvor du føler tida stopper litt opp. Du kjører gjennom bjørkeskog, myrterreng, og et forrevent klippelandskap. Lyset er spesielt, og fuglelivet og faunaen er unik. Relativt lett tilgjengelig finner du fugleslag som du ikke kan se andre steder i verden. Det er ikke bare på grunn av den geografiske plasseringen at Varanger kanskje er den mest eksotiske strekningen. En reise langs vegen til ishavet byr på kontrastfylt natur, hvor månelandskapet ut mot Hamningberg føles som en reise til verdens ende. Om du kjører vegen om høsten vil du kanskje oppleve det stålgrå lyset, og det øde landskapet vil virkelig stå fram som enda mer magisk.</p>
-                  <h3>Historien</h3>
-                  <p>Det er ikke all historie som er like behagelig og på Steilneset minnested møter vi deler av historien som kan være vanskelig å forstå. Hekseprosessene i Finnmark på 1600-tallet krevde 91 ofre, og det var her flest mennesker ble dømt for trolldom og brent på bål. Nærheten til Russland, finsk innvandring og samiske tradisjoner gir området et spennende kulturmangfold.</p>
-                  <h3>Opplevelser</h3>
-                  <p>Selv om du ikke er fugleentusiast bør du ta deg tid til å se på noen av de sjeldne fugleartene. På strekningen er det bygd flere fuglekikkerskjul hvor du kan sitte i le for vær og vind mens du nyter landskapet. Det er også gode sjanser for å oppleve reinsdyr på nært hold langs denne vegen. Etter at du har besøkt minnestedet på Steilneset bør du svinge innom den maleriske festningen i Vardø som ligger ved Norges østligste punkt.</p>
-               </description_no>
-<description_en>
-                  <p>Varanger is about the long lines in the landscape as well as the long lines of history. Varanger not only offers a physical experience; you will also find serenity on this road. It is difficult to explain other than by saying that this is a place where you feel as if time stands a bit still. You drive past birch woods, marshland and a rugged cliff landscape. The light is special and the bird and animal life are unique. Species of birds that you can’t see anywhere else in the world are relatively easily accessible. It’s not only because of its geographical location that Varanger is perhaps the most exotic stretch. A trip along the route leading to the Arctic Ocean will reveal natural surroundings full of contrasts, and the lunar landscape out towards Hamningberg in many ways feels like this is a journey to the world’s end. If you drive along this road in the autumn perhaps you will experience the steely grey light, and the barren landscape will emerge as even more magical.</p>
-                  <h3>History</h3>
-                  <p>History is not always pretty and at the Steilneset memorial we encounter episodes of history that may be difficult to comprehend. The witch trials in Finnmark in the 17th century claimed 91 victims and it was here that the greatest number of people were found guilty of witchcraft and burnt at the stake. Its closeness to Russia, immigration from Finland and Sámi traditions pervade this area with an exciting cultural diversity.</p>
-                  <h3>Experience</h3>
-                  <p>Even if you’re not a bird-watching enthusiast, you should take time to observe some of the rare bird species here. Along this stretch of road, several bird-watching hides have been built where you can sit well sheltered against the vagaries of the weather while you marvel at the landscape. There’s also a good chance of experiencing reindeer at close hand on this road. After visiting the Steilneset memorial you should drop by the picturesque Vardøhus Fortress that lies at the easternmost point of Norway.</p>
-               </description_en>
-<description_de>
-                  <p>Varanger handelt von den langen Linien in der Landschaft, aber auch von den langen Linien, die sich in der Geschichte zurückverfolgen lassen. Varanger ist nicht nur ein physisches Erlebnis, sondern auch ein Fest für die Sinne. Die Straße strahlt eine Ruhe aus, die sich nur damit erklären lässt, dass Sie an einen Ort gekommen sind, an dem die Zeit für einen Moment stehen geblieben ist. Ihr Weg führt Sie vorbei an Birkenwäldern, Moorlandschaften und zerklüfteten Klippen. Sie sind umgeben von einem ganz besonderen Licht. Vogelleben und Fauna in dieser Region sind einzigartig. Relativ leicht zugänglich finden Sie hier Vogelarten, die Sie an keinem anderen Ort der Welt sehen können. Varanger ist nicht nur wegen ihrer geografischen Lage die wohl exotischste Strecke. Auf der Reise entlang der Landschaftsroute bis zum Eismeer erwartet Sie eine kontrastreiche Natur, wobei die Mondlandschaft bis nach Hamningberg den Eindruck erweckt, als sei man auf dem Weg zum Ende der Welt. Wenn Sie die Straße im Herbst fahren, werden Sie vielleicht das stahlgraue Licht erleben, und die einsame Landschaft wird Ihnen noch magischer erscheinen.</p>
-                  <h3>Geschichte</h3>
-                  <p>Geschichte hat nicht nur gute Seiten. Am Steilneset Memorial treffen wir auf ein Stück Geschichte, das nur schwer zu verstehen ist. Die Hexenprozesse in der Finnmark im 17. Jahrhundert forderten 91 Opfer, von denen die meisten der Hexerei angeklagt und auf dem Scheiterhaufen verbrannt wurden. Die Nähe zu Russland, die finnische Einwanderung und die Traditionen der samischen Bevölkerung sorgen in der Region für eine interessante kulturelle Vielfalt.</p>
-                  <h3>Erlebnisse</h3>
-                  <p>Selbst wenn Sie kein Ornithologe sind, sollten Sie sich Zeit nehmen, um einige der seltenen Vogelarten zu beobachten. Auf der Strecke wurden mehrere Vogelbeobachtungsposten errichtet, in denen Sie vor Wind und Wetter geschützt sitzen und die Landschaft genießen können. Außerdem ist die Wahrscheinlichkeit groß, dass Ihnen direkt am Wegesrand Rentiere begegnen. Nach einem Besuch beim Steilneset Memorial sollten Sie einen Abstecher zur malerisch gelegenen Festung in Vardø an Norwegens östlichstem Punkt machen.</p>
-               </description_de>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="turistveier.xsl"?>
+
 <turistveg-attraksjoner>
 <turistveg-attraksjon>
 <title>Gornitak</title>
@@ -38,12 +9,7 @@
 <description_no>
                      <p>Gornitak (samisk Gorgŋetak) betyr oppstigning. Rasteplassen ligger ved Varangerfjorden, inntil fjell og under høy himmel med utsikt mot havet i øst. Toalettet er bygd i et gammelt restaurert steinhus som var ammunisjonslager under andre verdenskrig.</p>
                   </description_no>
-<description_en>
-                     <p>Gornitak (Sámi: Gorgŋetak) means ascent. This rest area lies on the Varangerfjord close into a mountainside under a high firmament and with a view to the sea in the east. The service facilities are housed in an old, restored stone building that served as an ammunitions store during the Second World War.</p>
-                  </description_en>
-<description_de>
-                     <p>Gornitak (samisch Gorgŋetak) bedeutet Aufstieg und ist der Name des Rastplatzes am Varangerfjord. Er liegt unter weitem Himmel am Fuße des Gebirges mit Blick auf das Meer im Osten. Für den Bau der Toiletten diente ein altes restauriertes Steinhaus, das während des Zweiten Weltkriegs als Munitionslager genutzt wurde.</p>
-                  </description_de>
+
 </turistveg-attraksjon>
 <turistveg-attraksjon>
 <title>Hamningberg</title>
@@ -52,12 +18,7 @@
 <description_no>
                      <p>Ytterst på Varangerhalvøya mot Ishavet ligger det fraflyttede fiskeværet Hamningberg. Fiskeværet danner et tradisjonelt finnmarksmiljø, og har sin helt spesielle sjel med bygninger fra før andre verdenskrig. Noen av dem er russiske laftede tømmerhus fra 1800-tallet.</p>
                   </description_no>
-<description_en>
-                     <p>The abandoned fishing village of Hamningberg looks out to sea at the tip of the Varanger peninsula. The village represents a traditional Finnmark community and has its own unique soul, with houses dating from before the Second World War and even some 19th-century Russian timbered houses.</p>
-                  </description_en>
-<description_de>
-                     <p>Am Ende der Varanger-Halbinsel am Eismeer liegt das verlassene Fischerdorf Hamningberg. Das Dorf ist typisch für die Finnmark. Durch seine Häuser aus der Zeit vor dem Zweiten Weltkrieg und einige russische Blockhäuser aus dem 19. Jahrhundert strahlt es eine ganz besondere Atmosphäre aus.</p>
-                  </description_de>
+
 </turistveg-attraksjon>
 <turistveg-attraksjon>
 <title>Nesseby kirke</title>
@@ -66,12 +27,7 @@
 <description_no>
                      <p>Fra Nesseby er det kort veg ned til fjorden og landemerket Nesseby kirke. Tyskernes brente jords taktikk under andre verdenskrig, etterlot Finnmark og Nord-Troms i flammer. Som et under ble Nesseby kirke stående urørt. Kirken er fra 1858 med barokk altertavle fra ca. 1720.</p>
                   </description_no>
-<description_en>
-                     <p>From Nesseby village it is only a short walk down to the fjord and the landmark of Nesseby church. The scorched-earth tactics used by the retreating German army during the Second World War left Finnmark and northern Troms counties in flames. Miraculously Nesseby church remained unscathed. The church was built in 1858 and has a baroque altarpiece dating from around 1720.</p>
-                  </description_en>
-<description_de>
-                     <p>Von Nesseby ist es nicht weit bis zum Fjord und der als Landmarke dienenden Kirche von Nesseby. Ganz Finnmark und Nord-Troms fielen im Zweiten Weltkrieg der Taktik der verbrannten Erde durch die deutschen Truppen zum Opfer. Wie ein Wunder blieb die Kirche von Nesseby unbeschadet stehen. Die Kirche wurde 1858 errichtet und hat ein barockes Altarbild, das ungefähr aus dem Jahr 1720 stammt.</p>
-                  </description_de>
+
 </turistveg-attraksjon>
 <turistveg-attraksjon>
 <title>Birding Varanger</title>
@@ -80,12 +36,7 @@
 <description_no>
                      <p>Varanger er blant verdens 100 beste områder for fuglekikking. Ingen andre steder er det så lett å komme tett på yrende arktisk fugleliv. I Vestre Jakobselv, Vadsø, Ekkerøya, Hornøya, ytterst på Steilnesodden og i Barvika, er det bygd fuglekikkerskjul som gir ly for vær og vind.</p>
                   </description_no>
-<description_en>
-                     <p>Varanger is one of the 100 best destinations in the world to observe birds. No other place can offer such easy access to teeming Arctic bird life. Bird-watching hides have been built in Vestre Jakobselv, Vadsø, on Ekkerøya island, on Hornøya island, at the tip of the Steilnesodden promontory and in Barvika bay to provide shelter from the elements.</p>
-                  </description_en>
-<description_de>
-                     <p>Varanger gehört zu den 100 besten Vogelbeobachtungsgebieten weltweit. Nirgendwo anders ist es so einfach, dem regen arktischen Vogelleben so nahe zu sein. In Vestre Jakobselv, Vadsø, Ekkerøya, Hornøya und Barvika sowie am Ende der Landzunge Steilnesodden wurden Vogelbeobachtungsposten errichtet, die Schutz vor Wind und Wetter bieten.</p>
-                  </description_de>
+
 </turistveg-attraksjon>
 <turistveg-attraksjon>
 <title>Steilneset</title>
@@ -95,16 +46,7 @@
                      <p>Steilneset minnested i Vardø er reist til minne om de 91 ofrene som ble dømt for trolldom og brent på bål. Kunstneren Louise Bourgeois og arkitekten Peter Zumthor har samarbeidet om å skape emosjonelle rom, en brennende stol og en 100 meter lang minnehall som formidler den sterke historien.</p>
                      <p>Ofrenes skjebne beskrives på 91 plaketter i minnehallen. Tekstene er hentet fra de gamle rettsprotokollene og er organisert av professor i historie ved Universitetet i Tromsø, Liv Helene Willumsen.</p>
                   </description_no>
-<description_en>
-                     <p>Steilneset memorial in Vardø has been erected to commemorate the 91 people who were found guilty of witchcraft and burnt at the stake here. The artist Louise Bourgeois and the architect Peter Zumthor have joined in creating evocative space, a burning chair and a 100-metre long memorial hall that communicate this gripping story.</p>
-                     <p>The texts are based on the old court records and are written by Liv Helene Willumsen, Professor of History.</p>
-                  </description_en>
-<description_de>
-                     <p>Das Steilneset Memorial in Vardø wurde zum Gedenken an die 91 Opfer errichtet, die der Hexerei angeklagt und auf dem Scheiterhaufen verbrannt wurden. Die Künstlerin Louise Bourgeois und der Architekt Peter Zumthor haben gemeinsam emotionale Räume geschaffen. Mit einem brennenden Stuhl und einer 100 Meter langen Gedenkhalle vermitteln sie ein schweres Stück Geschichte.</p>
-                     <p>Die Texte hat Liv Helene Willumsen, Professorin der Geschichte, verfasst und sich dabei auf alte Gerichtsprotokolle gestützt.</p>
-                  </description_de>
+
 </turistveg-attraksjon>
 </turistveg-attraksjoner>
-</turistveg>
-</turistvegene>
-</root>
+
