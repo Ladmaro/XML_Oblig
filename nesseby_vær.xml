@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weatherdata>
   <location>
-    <name>Nesseby</name>
+    <name>Nesseby kirke</name>
     <type>Kirke</type>
     <country>Norge</country>
     <timezone id="Europe/Oslo" utcoffsetMinutes="60" />
@@ -36,7 +36,7 @@ http://om.yr.no/verdata/ -->
         </time>
         <time from="2017-10-31" to="2017-10-31">
           <title>tirsdag</title>
-          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Første del av dagen vestlig liten kuling utsatte steder i kyst- og fjordstrøkene, ellers bris. Snøbyger, få eller ingen byger i indre strøk.</body>
+          <body>Finnmark: Første del av dagen vestlig liten kuling utsatte steder i kyst- og fjordstrøkene, ellers bris. Snøbyger, få eller ingen byger i indre strøk.</body>
         </time>
         <time from="2017-11-01" to="2017-11-01">
           <title>onsdag</title>

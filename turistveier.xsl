@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+	<xsl:param name="hamningsberg_vaer" select="document('hamningsberg_vær.xml')"/>
+
+    <xsl:param name="nesseby_vaer" select="document('nesseby_vær.xml')"/>
+
     <xsl:output method="html"/>
+
     <xsl:template match="turistveg-attraksjoner">
         <html>
             <head>
@@ -17,7 +23,9 @@
                 <h1><xsl:value-of select="title"/>Varanger</h1>
                 <table>
                     <tr><th>Sted</th><th>Latitude</th>
-                        <th>Longitude</th><th>Informasjon</th></tr>
+                        <th>Longitude</th><th>Informasjon</th>
+                        <th>Vær</th>
+                    </tr>
                     <xsl:apply-templates>
                         <xsl:sort select="title"/>
                     </xsl:apply-templates>
@@ -31,6 +39,17 @@
                 <td><xsl:value-of select="latitude"/></td>
                 <td><xsl:value-of select="longitude"/></td>
                 <td><xsl:value-of select="description_no"/></td>
+                <xsl:choose>
+                    <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
+                        <td><xsl:value-of select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[1]/body"/></td>
+                    </xsl:when>
+                    <xsl:when test="title = $nesseby_vaer//weatherdata/location/name">
+                        <td><xsl:value-of select="$nesseby_vaer//weatherdata/forecast/text/location/time[2]/body"/></td>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <td>:/</td>
+                    </xsl:otherwise>
+                </xsl:choose>
             </tr>
     </xsl:template>
 
