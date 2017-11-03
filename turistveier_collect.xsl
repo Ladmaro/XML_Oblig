@@ -1,4 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Skrevet av Adrian Rovelstad -->
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
 	<xsl:param name="hamningsberg_vaer" select="document('http://www.yr.no/sted/Norge/Finnmark/B%C3%A5tsfjord/Hamningberg/varsel.xml')"/>
@@ -13,7 +16,7 @@
        <Sted><xsl:value-of select="title"/></Sted>
         <Informasjon><xsl:value-of select="description_no"/></Informasjon>
 
-        <xsl:choose>
+        <Varsel><xsl:choose>
         <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
         <xsl:apply-templates select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[3]/body"/>
         </xsl:when>
@@ -27,7 +30,7 @@
             <xsl:apply-templates select="$gornitak_vaer//weatherdata/forecast/text/location/time[3]/body"/>
             </xsl:when>
 
-        </xsl:choose>
+        </xsl:choose></Varsel>
         </turistveg-attraksjon>
     </xsl:template>
 

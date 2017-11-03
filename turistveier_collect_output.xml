@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="turistveier_collect.xsl"?><turistveg-attraksjoner>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="turistveier_collect.xsl"?><!-- Kontrollert av Adrian Rovelstad --><turistveg-attraksjoner>
 <turistveg-attraksjon>
 <Sted>Gornitak</Sted>
 <Informasjon>
                      Gornitak (samisk Gorgŋetak) betyr oppstigning. Rasteplassen ligger ved Varangerfjorden, inntil fjell og under høy himmel med utsikt mot havet i øst. Toalettet er bygd i et gammelt restaurert steinhus som var ammunisjonslager under andre verdenskrig.
                   </Informasjon>
 <Varsel>
-<body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørøst bris. Oppholdsvær. Om morgenen økning til østlig liten til stiv kuling utsatte steder. Sludd og snø, regn på kysten.</body>
+<body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørlig eller sørvestlig bris, av og til frisk bris på kysten. Først på dagen litt regn i ytre strøk av Vest-Finnmark, ellers oppholdsvær.</body>
 </Varsel>
 </turistveg-attraksjon>
 <turistveg-attraksjon>
@@ -23,7 +23,7 @@
                      Fra Nesseby er det kort veg ned til fjorden og landemerket Nesseby kirke. Tyskernes brente jords taktikk under andre verdenskrig, etterlot Finnmark og Nord-Troms i flammer. Som et under ble Nesseby kirke stående urørt. Kirken er fra 1858 med barokk altertavle fra ca. 1720.
                   </Informasjon>
 <Varsel>
-<body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørøst bris. Oppholdsvær. Om morgenen økning til østlig liten til stiv kuling utsatte steder. Sludd og snø, regn på kysten.</body>
+<body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørlig eller sørvestlig bris, av og til frisk bris på kysten. Først på dagen litt regn i ytre strøk av Vest-Finnmark, ellers oppholdsvær.</body>
 </Varsel>
 </turistveg-attraksjon>
 <turistveg-attraksjon>
