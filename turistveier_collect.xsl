@@ -13,7 +13,7 @@
        <Sted><xsl:value-of select="title"/></Sted>
         <Informasjon><xsl:value-of select="description_no"/></Informasjon>
 
-        <Varsel><xsl:choose>
+        <xsl:choose>
         <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
         <xsl:apply-templates select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[3]/body"/>
         </xsl:when>
@@ -27,7 +27,7 @@
             <xsl:apply-templates select="$gornitak_vaer//weatherdata/forecast/text/location/time[3]/body"/>
             </xsl:when>
 
-        </xsl:choose></Varsel>
+        </xsl:choose>
         </turistveg-attraksjon>
     </xsl:template>
 
