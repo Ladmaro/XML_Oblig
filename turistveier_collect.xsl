@@ -15,16 +15,16 @@
 
         <Varsel><xsl:choose>
         <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
-        <xsl:apply-templates select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[1]/body"/>
+        <xsl:apply-templates select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[3]/body"/>
         </xsl:when>
             <xsl:when test="title = $steilnesset_vaer//weatherdata/location/name">
-            <xsl:apply-templates select="$steilnesset_vaer//weatherdata/forecast/text/location/time[1]/body"/>
+            <xsl:apply-templates select="$steilnesset_vaer//weatherdata/forecast/text/location/time[3]/body"/>
             </xsl:when>
             <xsl:when test="title = $nesseby_vaer//weatherdata/location/name">
-            <xsl:apply-templates select="$nesseby_vaer//weatherdata/forecast/text/location/time[1]/body"/>
+            <xsl:apply-templates select="$nesseby_vaer//weatherdata/forecast/text/location/time[3]/body"/>
             </xsl:when>
             <xsl:when test="title = $gornitak_vaer//weatherdata/location/name">
-            <xsl:apply-templates select="$gornitak_vaer//weatherdata/forecast/text/location/time[1]/body"/>
+            <xsl:apply-templates select="$gornitak_vaer//weatherdata/forecast/text/location/time[3]/body"/>
             </xsl:when>
 
         </xsl:choose></Varsel>
