@@ -1,11 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-	<xsl:param name="hamningsberg_vaer" select="document('hamningsberg_vær.xml')"/>
-
-    <xsl:output method="html"/>
-
-    <xsl:template match="turistveg-attraksjoner">
+    <xsl:template match="/">
         <html>
             <head>
                 <meta charset="UTF-8" />
@@ -32,20 +27,23 @@
         </html>
     </xsl:template>
     <xsl:template match="turistveg-attraksjon">
-            <tr>
-                <td><xsl:value-of select="title"/></td>
-                <td><xsl:value-of select="latitude"/></td>
-                <td><xsl:value-of select="longitude"/></td>
-                <td><xsl:value-of select="description_no"/></td>
-                <xsl:choose>
-                    <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
-                        <td><xsl:value-of select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[1]/body"/></td>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <td>:/</td>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </tr>
+        <tr>
+            <td><xsl:value-of select="title"/></td>
+            <td><xsl:value-of select="latitude"/></td>
+            <td><xsl:value-of select="longitude"/></td>
+            <td><xsl:value-of select="description_no"/></td>
+            <xsl:choose>
+                <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
+                    <td><xsl:value-of select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[1]/body"/></td>
+                </xsl:when>
+                <xsl:when test="title = $nesseby_vaer//weatherdata/location/name">
+                    <td><xsl:value-of select="$nesseby_vaer//weatherdata/forecast/text/location/time[2]/body"/></td>
+                </xsl:when>
+                <xsl:otherwise>
+                    <td>:/</td>
+                </xsl:otherwise>
+            </xsl:choose>
+        </tr>
     </xsl:template>
 
 </xsl:stylesheet>

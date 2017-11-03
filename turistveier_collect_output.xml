@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="turistveier_collect2.xsl"?>
-
-<turistveg-attraksjoner>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="turistveier_collect2.xsl"?><turistveg-attraksjoner>
 <turistveg-attraksjon>
 <title>Gornitak</title>
 <latitude>70.17624391</latitude>
@@ -49,4 +46,3 @@
 
 </turistveg-attraksjon>
 </turistveg-attraksjoner>
-
