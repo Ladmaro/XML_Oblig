@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="turistveier_collect2.xsl"?>
+<?xml-stylesheet type="text/xsl" href="turistveier_collect.xsl"?>
 
 <turistveg-attraksjoner>
 <turistveg-attraksjon>
@@ -21,7 +21,7 @@
 
 </turistveg-attraksjon>
 <turistveg-attraksjon>
-<title>Nesseby kirke</title>
+<title>Nesseby</title>
 <latitude>70.14559409</latitude>
 <longitude>28.8631532</longitude>
 <description_no>
@@ -39,7 +39,7 @@
 
 </turistveg-attraksjon>
 <turistveg-attraksjon>
-<title>Steilneset</title>
+<title>Steglneset</title>
 <latitude>70.37024991</latitude>
 <longitude>31.10486622</longitude>
 <description_no>
