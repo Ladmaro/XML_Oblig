@@ -11,5 +11,15 @@ $xsl->load('turistveier_collect.xsl');
 $proc = new XSLTProcessor;
 $proc->importStyleSheet($xsl); // attach the xsl rules
 
-echo $proc->transformToXML($xml);
+$newxml = $proc->transformToXML($xml);
+
+$run = simplexml_load_string($newxml);
+foreach ($run->children() as $attraksjon) {
+    echo "<strong>Sted: </strong>" . $attraksjon->Sted . "<br>";
+    echo "<strong>Informasjon: </strong>" . $attraksjon->Informasjon . "<br>";
+    echo "<strong>Varsel: </strong>" . $attraksjon->body . "<br>";
+    echo "<br>";
+}
+
+
 ?>
