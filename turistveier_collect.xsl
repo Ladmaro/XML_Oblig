@@ -13,8 +13,11 @@
 
     <xsl:template match="turistveg-attraksjon">
         <turistveg-attraksjon>
-       <Sted><xsl:value-of select="title"/></Sted>
-        <Informasjon><xsl:value-of select="description_no"/></Informasjon>
+            <Sted><xsl:value-of select="title"/></Sted>
+            <Informasjon><xsl:value-of select="description_no"/></Informasjon>
+            <Latitude><xsl:value-of select="latitude"/></Latitude>
+            <Longitude><xsl:value-of select="longitude"/></Longitude>
+
 
         <Varsel><xsl:choose>
         <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
