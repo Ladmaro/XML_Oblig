@@ -1,68 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="turistveier_collect.xsl"?><!-- Kontrollert av Adrian Rovelstad --><turistveg-attraksjoner>
 <turistveg-attraksjon>
 <Sted>Gornitak</Sted>
-<Dato>
-<time from="2017-11-06" to="2017-11-06">
-          <title>mandag</title>
-          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørøst bris, om morgenen økning til østlig liten til stiv kuling utsatte steder. Sludd og snø, regn på kysten.</body>
+<Varsel>
+<time from="2017-11-08" to="2017-11-08">
+          <title>onsdag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Økning til sørlig liten kuling utsatte steder. Oppholdsvær. Fra onsdag ettermiddag sørlig opp i sterk kuling utsatte steder. Litt regn, først i vest. Sludd og snø i indre og høyere strøk.</body>
         </time>
-</Dato>
+</Varsel>
+<Latitude>70.17624391</Latitude>
+<Longitude>28.7140208</Longitude>
 <Informasjon>
                      Gornitak (samisk Gorgŋetak) betyr oppstigning. Rasteplassen ligger ved Varangerfjorden, inntil fjell og under høy himmel med utsikt mot havet i øst. Toalettet er bygd i et gammelt restaurert steinhus som var ammunisjonslager under andre verdenskrig.
                   </Informasjon>
-<Latitude>70.17624391</Latitude>
-<Longitude>28.7140208</Longitude>
 </turistveg-attraksjon>
 <turistveg-attraksjon>
 <Sted>Hamningberg</Sted>
-<Dato>
-<time from="2017-11-05" to="2017-11-05">
-          <title>søndag</title>
-          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørlig eller sørvestlig bris, først på dagen nordvest opp i liten kuling på kysten lengst øst. Enkelte regn- og sluddbyger på kysten av Vest-Finnmark først på dagen, ellers opphold og en del sol, men lokal tåke på Vidda. Fra søndag ettermiddag søraustlig frisk bris 10 utsatte steder. Tilskyende. &lt;strong&gt;Slettnes fyr - Vardø:&lt;/strong&gt; Nordvestlig frisk bris 10. Tidlig søndag ettermiddag dreiende til sørvestlig og om kvelden sørøstlig bris. Stort sett oppholdsvær. Bølgehøyde: 1,5 m, minkende til 1 m.</body>
+<Varsel>
+<time from="2017-11-06" to="2017-11-06">
+          <title>mandag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørøst frisk bris utsatte steder, etter hvert økning til østlig liten kuling. Fra i ettermiddag østlig stiv, periodevis sterk kuling. Sludd og snø, regn på kysten. &lt;strong&gt;Torsvåg - Grense Jakobselv:&lt;/strong&gt; Aust og søraust liten kuling 12. Økning til aust og nordaust stiv kuling 15 i ettermiddag, periodevis sterk kuling 20 utsatte steder i kveld. Regn. Bølgehøyde: 1,5-2 m. I kveld 2-3,5 m.</body>
         </time>
-</Dato>
+</Varsel>
+<Latitude>70.54112485</Latitude>
+<Longitude>30.6099191</Longitude>
 <Informasjon>
                      Ytterst på Varangerhalvøya mot Ishavet ligger det fraflyttede fiskeværet Hamningberg. Fiskeværet danner et tradisjonelt finnmarksmiljø, og har sin helt spesielle sjel med bygninger fra før andre verdenskrig. Noen av dem er russiske laftede tømmerhus fra 1800-tallet.
                   </Informasjon>
-<Latitude>70.54112485</Latitude>
-<Longitude>30.6099191</Longitude>
 </turistveg-attraksjon>
 <turistveg-attraksjon>
 <Sted>Nesseby</Sted>
-<Dato>
-<time from="2017-11-06" to="2017-11-06">
-          <title>mandag</title>
-          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørøst bris, om morgenen økning til østlig liten til stiv kuling utsatte steder. Sludd og snø, regn på kysten.</body>
+<Varsel>
+<time from="2017-11-08" to="2017-11-08">
+          <title>onsdag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Økning til sørlig liten kuling utsatte steder. Oppholdsvær. Fra onsdag ettermiddag sørlig opp i sterk kuling utsatte steder. Litt regn, først i vest. Sludd og snø i indre og høyere strøk.</body>
         </time>
-</Dato>
+</Varsel>
+<Latitude>70.14559409</Latitude>
+<Longitude>28.8631532</Longitude>
 <Informasjon>
                      Fra Nesseby er det kort veg ned til fjorden og landemerket Nesseby kirke. Tyskernes brente jords taktikk under andre verdenskrig, etterlot Finnmark og Nord-Troms i flammer. Som et under ble Nesseby kirke stående urørt. Kirken er fra 1858 med barokk altertavle fra ca. 1720.
                   </Informasjon>
-<Latitude>70.14559409</Latitude>
-<Longitude>28.8631532</Longitude>
 </turistveg-attraksjon>
 <turistveg-attraksjon>
-<Sted>Birding Varanger</Sted>
-<Dato/>
+<Sted>Vadsø</Sted>
+<Varsel>
+<time from="2017-11-08" to="2017-11-08">
+          <title>onsdag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Økning til sørlig liten kuling utsatte steder. Oppholdsvær. Fra onsdag ettermiddag sørlig opp i sterk kuling utsatte steder. Litt regn, først i vest. Sludd og snø i indre og høyere strøk.</body>
+        </time>
+</Varsel>
+<Latitude>70.08000849</Latitude>
+<Longitude>30.07885063</Longitude>
 <Informasjon>
                      Varanger er blant verdens 100 beste områder for fuglekikking. Ingen andre steder er det så lett å komme tett på yrende arktisk fugleliv. I Vestre Jakobselv, Vadsø, Ekkerøya, Hornøya, ytterst på Steilnesodden og i Barvika, er det bygd fuglekikkerskjul som gir ly for vær og vind.
                   </Informasjon>
-<Latitude>70.08000849</Latitude>
-<Longitude>30.07885063</Longitude>
 </turistveg-attraksjon>
 <turistveg-attraksjon>
 <Sted>Steglneset</Sted>
-<Dato>
-<time from="2017-11-05" to="2017-11-05">
-          <title>søndag</title>
-          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørlig eller sørvestlig bris, først på dagen nordvest opp i liten kuling på kysten lengst øst. Enkelte regn- og sluddbyger på kysten av Vest-Finnmark først på dagen, ellers opphold og en del sol, men lokal tåke på Vidda. Fra søndag ettermiddag søraustlig frisk bris 10 utsatte steder. Tilskyende. &lt;strong&gt;Vardø - Grense Jakobselv:&lt;/strong&gt; Vestlig bris, søndag formiddag dreiende sørvest og om kvelden til sørøstlig bris. Stort sett oppholdsvær. Bølgehøyde: 0,5 m.</body>
+<Varsel>
+<time from="2017-11-06" to="2017-11-06">
+          <title>mandag</title>
+          <body>&lt;strong&gt;Finnmark:&lt;/strong&gt; Sørøst frisk bris utsatte steder, etter hvert økning til østlig liten kuling. Fra i ettermiddag østlig stiv, periodevis sterk kuling. Sludd og snø, regn på kysten. &lt;strong&gt;Torsvåg - Grense Jakobselv:&lt;/strong&gt; Aust og søraust liten kuling 12. Økning til aust og nordaust stiv kuling 15 i ettermiddag, periodevis sterk kuling 20 utsatte steder i kveld. Regn. Bølgehøyde: 1,5-2 m. I kveld 2-3,5 m.</body>
         </time>
-</Dato>
+</Varsel>
+<Latitude>70.37024991</Latitude>
+<Longitude>31.10486622</Longitude>
 <Informasjon>
                      Steilneset minnested i Vardø er reist til minne om de 91 ofrene som ble dømt for trolldom og brent på bål. Kunstneren Louise Bourgeois og arkitekten Peter Zumthor har samarbeidet om å skape emosjonelle rom, en brennende stol og en 100 meter lang minnehall som formidler den sterke historien.
                      Ofrenes skjebne beskrives på 91 plaketter i minnehallen. Tekstene er hentet fra de gamle rettsprotokollene og er organisert av professor i historie ved Universitetet i Tromsø, Liv Helene Willumsen.
                   </Informasjon>
-<Latitude>70.37024991</Latitude>
-<Longitude>31.10486622</Longitude>
 </turistveg-attraksjon>
 </turistveg-attraksjoner>

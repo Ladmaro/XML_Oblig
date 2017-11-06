@@ -53,6 +53,7 @@ foreach ($run->children() as $attraksjon) {
         echo "Sted: " . $attraksjon->Sted . "<br>" . "Informasjon: " . $attraksjon->Informasjon . "<br>";
         echo "Dato: " . $attraksjon->Varsel->time->title . " - " . $attraksjon->Varsel->time['from'] .  "<br>" . "Varsel: " .
             $attraksjon->Varsel->time->body . "<br>";
+        var 
 
 ?>
 <div id="mapContainer"></div>

@@ -8,6 +8,7 @@
     <xsl:param name="steilnesset_vaer" select="document('http://www.yr.no/sted/Norge/Finnmark/Vard%C3%B8/Steglneset/varsel.xml')"/>
     <xsl:param name="nesseby_vaer" select="document('http://www.yr.no/sted/Norge/Finnmark/Nesseby/Nesseby~2324746/varsel.xml')"/>
     <xsl:param name="gornitak_vaer" select="document('https://www.yr.no/sted/Norge/Finnmark/Nesseby/Gornitak/varsel.xml')"/>
+    <xsl:param name="birding_vaer" select="document('https://www.yr.no/sted/Norge/Finnmark/Vads%C3%B8/Vads%C3%B8/varsel.xml')"/>
 
     <xsl:output method="xml" indent="yes"/>
 
@@ -27,11 +28,15 @@
                 <xsl:when test="title = $gornitak_vaer//weatherdata/location/name">
                     <xsl:apply-templates select="$gornitak_vaer//weatherdata/forecast/text/location/time[3]"/>
                 </xsl:when>
+                <xsl:when test="title = $birding_vaer//weatherdata/location/name">
+                    <xsl:apply-templates select="$birding_vaer//weatherdata/forecast/text/location/time[3]"/>
+                </xsl:when>
 
             </xsl:choose></Varsel>
-            <Informasjon><xsl:value-of select="description_no"/></Informasjon>
             <Latitude><xsl:value-of select="latitude"/></Latitude>
             <Longitude><xsl:value-of select="longitude"/></Longitude>
+            <Informasjon><xsl:value-of select="description_no"/></Informasjon>
+
 
 
         </turistveg-attraksjon>
