@@ -1,21 +1,11 @@
-<!-- Delvis skrevet av Adrian Rovelstad -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
-      integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-      crossorigin=""/>
-<style>
-    #mapContainer{
-        position: absolute;
-        top:0;
-        right:0;
-        bottom:0;
-        left:0;
-        height:400px;
-        width:700px;
-        margin-top: 240px;
-    }
-</style>
+
+<!-- Skrevet av Adrian Rovelstad og Tom Andreas Vingås -->
+
+<?php
+require_once'header.php';
+?>
+
 <?php
 
 // Load the XML source
@@ -35,7 +25,10 @@ $run = simplexml_load_string($newxml);
 
 ?>
 
+<h1>VisitVeranger</h1>
+
 <!-- Ramser opp stedsnavnene i xml arket og linker dem til hver sin side -->
+<aside class="attr_nav">
 <ul>
     <?php
     foreach ($run->children() as $attraksjon) {
@@ -44,18 +37,27 @@ $run = simplexml_load_string($newxml);
     ?>
 
 </ul>
-
+</aside>
+<main class="content">
+<div class="attr_text">
 <?php
-// Hvis en av linkene er trykket på, så vil informasjonen kun relatert for det stedet vises
-if (isset($_GET['page'])) {
-foreach ($run->children() as $attraksjon) {
-    if ($attraksjon->Sted == $_GET['page']) {
-        echo "Sted: " . $attraksjon->Sted . "<br>" . "Informasjon: " . $attraksjon->Informasjon . "<br>";
-        echo "Dato: " . $attraksjon->Varsel->time->title . " - " . $attraksjon->Varsel->time['from'] .  "<br>" . "Varsel: " .
-            $attraksjon->Varsel->time->body . "<br>";
-        var 
+    // Hvis en av linkene er trykket på, så vil informasjonen kun relatert for det stedet vises
+    if (isset($_GET['page'])) {
+    foreach ($run->children() as $attraksjon) {
+        if ($attraksjon->Sted == $_GET['page']) {
+            echo "<h2>" . $attraksjon->Sted . "</h2>";
+            echo"<P>" . $attraksjon->Informasjon . "</p>";
+        ?>
+</div>
+<div class="attr_weather">
+    <h2>Været</h2>
+        <?php
+         echo "Dato: " . $attraksjon->Varsel->time->title . " - " . $attraksjon->Varsel->time['from'] .  "<br>" . "Varsel: " .
+                $attraksjon->Varsel->time->body . "<br>";
 
-?>
+    ?>
+</div>
+
 <div id="mapContainer"></div>
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
     integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
@@ -81,3 +83,5 @@ accessToken: 'pk.eyJ1IjoibXVyYXJuIiwiYSI6ImNqOWpwdDhveTNyeXUyeHF5dW9pdjY4bTkifQ.
 }
 }
 ?>
+
+</main>

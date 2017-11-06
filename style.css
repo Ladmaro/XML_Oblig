@@ -1,0 +1,30 @@
+.container{
+    position: relative;
+    max-width: 1145px;
+}
+
+.attr_nav{
+    display: inline-block;
+    width: 20%;
+}
+
+.attr_text{
+    display: block;
+}
+
+
+
+.content{
+    display:inline-block;
+    width: 80%;
+}
+
+#mapContainer{
+    display: block;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    height:400px;
+    width:700px;
+}
