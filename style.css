@@ -33,17 +33,29 @@ body{
     height: 90vh;
 }
 
+.attr__nav h2{
+    text-align: center;
+}
+
 .attr__nav ul{
     padding: 0;
     margin: 0;
+    list-style: none;
+}
+
+.attr__nav ul li{
+    text-align: center;
+}
+
+.attr__nav li a:link{
+    text-decoration: none;
+    color: #FFF;
 }
 
 .attr__text{
     display: block;
 }
-.attr__text-p{
 
-}
 
 
 
