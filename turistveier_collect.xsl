@@ -14,26 +14,26 @@
     <xsl:template match="turistveg-attraksjon">
         <turistveg-attraksjon>
             <Sted><xsl:value-of select="title"/></Sted>
+            <Varsel><xsl:choose>
+                <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
+                    <xsl:apply-templates select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[3]"/>
+                </xsl:when>
+                <xsl:when test="title = $steilnesset_vaer//weatherdata/location/name">
+                    <xsl:apply-templates select="$steilnesset_vaer//weatherdata/forecast/text/location/time[3]"/>
+                </xsl:when>
+                <xsl:when test="title = $nesseby_vaer//weatherdata/location/name">
+                    <xsl:apply-templates select="$nesseby_vaer//weatherdata/forecast/text/location/time[3]"/>
+                </xsl:when>
+                <xsl:when test="title = $gornitak_vaer//weatherdata/location/name">
+                    <xsl:apply-templates select="$gornitak_vaer//weatherdata/forecast/text/location/time[3]"/>
+                </xsl:when>
+
+            </xsl:choose></Varsel>
             <Informasjon><xsl:value-of select="description_no"/></Informasjon>
             <Latitude><xsl:value-of select="latitude"/></Latitude>
             <Longitude><xsl:value-of select="longitude"/></Longitude>
 
 
-        <Varsel><xsl:choose>
-        <xsl:when test="title = $hamningsberg_vaer//weatherdata/location/name">
-        <xsl:apply-templates select="$hamningsberg_vaer//weatherdata/forecast/text/location/time[3]/body"/>
-        </xsl:when>
-            <xsl:when test="title = $steilnesset_vaer//weatherdata/location/name">
-            <xsl:apply-templates select="$steilnesset_vaer//weatherdata/forecast/text/location/time[3]/body"/>
-            </xsl:when>
-            <xsl:when test="title = $nesseby_vaer//weatherdata/location/name">
-            <xsl:apply-templates select="$nesseby_vaer//weatherdata/forecast/text/location/time[3]/body"/>
-            </xsl:when>
-            <xsl:when test="title = $gornitak_vaer//weatherdata/location/name">
-            <xsl:apply-templates select="$gornitak_vaer//weatherdata/forecast/text/location/time[3]/body"/>
-            </xsl:when>
-
-        </xsl:choose></Varsel>
         </turistveg-attraksjon>
     </xsl:template>
 

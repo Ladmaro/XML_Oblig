@@ -9,10 +9,11 @@
         position: absolute;
         top:0;
         right:0;
-        bottom:100px;
+        bottom:0;
         left:0;
         height:400px;
         width:700px;
+        margin-top: 240px;
     }
 </style>
 <?php
@@ -31,14 +32,29 @@ $proc->importStyleSheet($xsl); // attach the xsl rules
 $newxml = $proc->transformToXML($xml);
 
 $run = simplexml_load_string($newxml);
-if (isset($_GET['page'])) {
-foreach ($run->children() as $attraksjon) {
-    if ($attraksjon->Sted == $_GET['page']) {
-        echo "Sted: " . $attraksjon->Sted . "<br>" . "Informasjon: " . $attraksjon->Informasjon
-            . "<br>" . "Varsel: " . $attraksjon->Varsel->body . "<br>";
 
 ?>
 
+<!-- Ramser opp stedsnavnene i xml arket og linker dem til hver sin side -->
+<ul>
+    <?php
+    foreach ($run->children() as $attraksjon) {
+        echo "<li><a href='varanger.php?page=$attraksjon->Sted'> $attraksjon->Sted </a></li>";
+    }
+    ?>
+
+</ul>
+
+<?php
+// Hvis en av linkene er trykket på, så vil informasjonen kun relatert for det stedet vises
+if (isset($_GET['page'])) {
+foreach ($run->children() as $attraksjon) {
+    if ($attraksjon->Sted == $_GET['page']) {
+        echo "Sted: " . $attraksjon->Sted . "<br>" . "Informasjon: " . $attraksjon->Informasjon . "<br>";
+        echo "Dato: " . $attraksjon->Varsel->time->title . " - " . $attraksjon->Varsel->time['from'] .  "<br>" . "Varsel: " .
+            $attraksjon->Varsel->time->body . "<br>";
+
+?>
 <div id="mapContainer"></div>
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
     integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
@@ -54,25 +70,13 @@ id: 'mapbox.streets',
 accessToken: 'pk.eyJ1IjoibXVyYXJuIiwiYSI6ImNqOWpwdDhveTNyeXUyeHF5dW9pdjY4bTkifQ.QQMjgOHn9Bnn7TITz_2GRw'
 }).addTo(mymap);
 // Legger til marker på kartet og legger til en beskrivelse.
-// Marker for Nesseby
+// Marker for stedet det gjelder
 
-        var marker = L.marker([<?php $attraksjon->Latitude ?>, <?php $attraksjon->Longitude ?>]).addTo(mymap);
-        marker.bindPopup(<?php echo $attraksjon->Sted?>);
+        var marker = L.marker([<?php echo $attraksjon->Latitude; ?>, <?php echo $attraksjon->Longitude; ?>]).addTo(mymap);
+        marker.bindPopup(<?php echo $attraksjon->Sted;?>);
 </script>
 <?php
     }
 }
 }
 ?>
-
-
-
-
-<ul>
-    <?php
-    foreach ($run->children() as $attraksjon) {
-        echo "<li><a href='varanger.php?page=$attraksjon->Sted'> $attraksjon->Sted </a></li>";
-    }
-    ?>
-
-</ul>
