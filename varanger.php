@@ -24,11 +24,13 @@ $newxml = $proc->transformToXML($xml);
 $run = simplexml_load_string($newxml);
 
 ?>
-
+<div class="attr__banner">
 <h1>VisitVeranger</h1>
+</div>
+
 
 <!-- Ramser opp stedsnavnene i xml arket og linker dem til hver sin side -->
-<aside class="attr_nav">
+<aside class="attr__nav">
 <ul>
     <?php
     foreach ($run->children() as $attraksjon) {
@@ -39,7 +41,7 @@ $run = simplexml_load_string($newxml);
 </ul>
 </aside>
 <main class="content">
-<div class="attr_text">
+<div class="attr__text">
 <?php
     // Hvis en av linkene er trykket på, så vil informasjonen kun relatert for det stedet vises
     if (isset($_GET['page'])) {
@@ -49,7 +51,7 @@ $run = simplexml_load_string($newxml);
             echo"<P>" . $attraksjon->Informasjon . "</p>";
         ?>
 </div>
-<div class="attr_weather">
+<div class="attr__weather">
     <h2>Været</h2>
         <?php
          echo "Dato: " . $attraksjon->Varsel->time->title . " - " . $attraksjon->Varsel->time['from'] .  "<br>" . "Varsel: " .
@@ -85,3 +87,8 @@ accessToken: 'pk.eyJ1IjoibXVyYXJuIiwiYSI6ImNqOWpwdDhveTNyeXUyeHF5dW9pdjY4bTkifQ.
 ?>
 
 </main>
+
+
+<?php
+require_once'footer.php';
+?>
