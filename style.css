@@ -30,7 +30,7 @@ body{
     width: 20%;
     background-color: lightblue;
     float: left;
-    height: 90vh;
+    height: 85vh;
 }
 
 .attr__nav h2{
@@ -47,9 +47,9 @@ body{
     text-align: center;
 }
 
-.attr__nav li a:link{
+.attr__nav li a{
     text-decoration: none;
-    color: #FFF;
+    color: #000;
 }
 
 .attr__text{
@@ -62,7 +62,7 @@ body{
 .content{
     display:inline-block;
     width: 80%;
-    height: 90vh;
+    height: 85vh;
     background-color: coral;
     float: right;
 }
