@@ -1,70 +1,22 @@
-/* skrevet av tom andreas vingås */
-html{
-    box-sizing: border-box;
-    
-}
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
 .container{
     position: relative;
-    width: 100%;
+    max-width: 1145px;
 }
 
-.attr__banner{
-    background-color: lightgreen;
-    text-align: center;
-    height: 10vh;
-}
-
-.attr__banner h1{
-    margin: 0;
-    padding: 0;
-}
-
-.attr__nav{
+.attr_nav{
     display: inline-block;
     width: 20%;
-    background-color: lightblue;
-    float: left;
-    height: 85vh;
 }
 
-.attr__nav h2{
-    text-align: center;
-}
-
-.attr__nav ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.attr__nav ul li{
-    text-align: center;
-}
-
-.attr__nav li a{
-    text-decoration: none;
-    color: #000;
-}
-
-.attr__text{
+.attr_text{
     display: block;
 }
-
 
 
 
 .content{
     display:inline-block;
     width: 80%;
-    height: 85vh;
-    background-color: coral;
-    float: right;
 }
 
 #mapContainer{
