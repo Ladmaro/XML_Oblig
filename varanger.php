@@ -29,33 +29,33 @@ $run = simplexml_load_string($newxml);
 
 <!-- Ramser opp stedsnavnene i xml arket og linker dem til hver sin side -->
 <aside class="attr_nav">
-<ul>
+    <ul>
 
-    <?php
-    foreach ($run->children() as $attraksjon) {
-        echo "<li><a href='varanger.php?page=$attraksjon->Sted'> $attraksjon->Sted </a></li>";
-    }
-    ?>
+        <?php
+        foreach ($run->children() as $attraksjon) {
+            echo "<li><a href='varanger.php?page=$attraksjon->Sted'> $attraksjon->Sted </a></li>";
+        }
+        ?>
 
-</ul>
+    </ul>
 </aside>
 <main class="content">
-<div class="attr_text">
-<?php
-    // Hvis en av linkene er trykket på, så vil informasjonen kun relatert for det stedet vises
-    if (isset($_GET['page'])) {
-    foreach ($run->children() as $attraksjon) {
+    <div class="attr_text">
+        <?php
+        // Hvis en av linkene er trykket på, så vil informasjonen kun relatert for det stedet vises
+        if (isset($_GET['page'])) {
+        foreach ($run->children() as $attraksjon) {
         if ($attraksjon->Sted == $_GET['page']) {
-            echo "<h2>" . $attraksjon->Sted . "</h2>";
-            echo"<p>" . $attraksjon->Informasjon . "</p>";
+        echo "<h2>" . $attraksjon->Sted . "</h2>";
+        echo"<p>" . $attraksjon->Informasjon . "</p>";
         ?>
-</div>
-<div class="attr_weather">
-    <h2>Været</h2>
+    </div>
+    <div class="attr_weather">
+        <h2>Været</h2>
 
         <?php
         $devices = array();
-        foreach($run->turistveg_attraksjon->Varsel->forecast as $vaer)
+        foreach($attraksjon->Varsel->forecast as $vaer)
         {
             $device = array();
 
@@ -73,33 +73,33 @@ $run = simplexml_load_string($newxml);
         }
 
 
-    ?>
-</div>
+        ?>
+    </div>
 
-<div id="mapContainer"></div>
+    <div id="mapContainer"></div>
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-    integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-    crossorigin=""></script>
+            integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+            crossorigin=""></script>
     <script>
         //Setter standardvisning av kartet, 12 i mymap kan endres på. Den bestemmer standardzoom når du åpner siden.
         var mymap = L.map('mapContainer').setView([70.298378, 29.915771], 8);
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-maxZoom: 18,
-id: 'mapbox.streets',
-accessToken: 'pk.eyJ1IjoibXVyYXJuIiwiYSI6ImNqOWpwdDhveTNyeXUyeHF5dW9pdjY4bTkifQ.QQMjgOHn9Bnn7TITz_2GRw'
-}).addTo(mymap);
-// Legger til marker på kartet og legger til en beskrivelse.
-// Marker for stedet det gjelder
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.streets',
+            accessToken: 'pk.eyJ1IjoibXVyYXJuIiwiYSI6ImNqOWpwdDhveTNyeXUyeHF5dW9pdjY4bTkifQ.QQMjgOHn9Bnn7TITz_2GRw'
+        }).addTo(mymap);
+        // Legger til marker på kartet og legger til en beskrivelse.
+        // Marker for stedet det gjelder
 
         var marker = L.marker([<?php echo $attraksjon->Latitude; ?>, <?php echo $attraksjon->Longitude; ?>]).addTo(mymap);
         marker.bindPopup(<?php echo $attraksjon->Sted;?>);
-</script>
-<?php
+    </script>
+    <?php
     }
-}
-}
-?>
+    }
+    }
+    ?>
 
 </main>
