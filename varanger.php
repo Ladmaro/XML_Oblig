@@ -85,10 +85,14 @@ $run = simplexml_load_string($newxml);
         </div><!-- end of first row in main content-->
         
         <!--second row in main content-->
-        <div class="row center-xs center-sm center-md center-lg">
+        <div class="row ">
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h2>Været</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 weather-heading">
+                        <h2>Været</h2>
+                    </div>
+                </div>
                 <?php
                 $devices = array();
                 foreach($attraksjon->Varsel->forecast as $vaer){
@@ -101,16 +105,16 @@ $run = simplexml_load_string($newxml);
                 $devices[] = $device;
                 } 
                 ?>
-                <div class="row center-xs center-sm center-md center-lg">
+                <div class="row ">
                 <?php
                   foreach ($devices as $varsel) {
                 ?>
                 
-                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 weather-box">
                         <?php
                             echo"<h3> " . $varsel['title'] . " </h3>";
-                            echo"<p>" . $varsel['dato'] . "</p>";
-                            echo"<p>" . $varsel['body'] . "</p><br>";
+                            echo"<p class='dato'>" . $varsel['dato'] . "</p>";
+                            echo"<p class='text'>" . $varsel['body'] . "</p><br>";
                         ?>
                     </div>
                 <?php
