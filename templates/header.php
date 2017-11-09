@@ -24,7 +24,7 @@
         <div class="row center-xs center-sm center-md center-lg ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="header">
-                    <h1>VisitVeranger</h1>
+                    <h1>VisitVaranger</h1>
                 </div>
             </div>
         </div>
