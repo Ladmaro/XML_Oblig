@@ -1,0 +1,1 @@
+<!--skrevet av Tom Andreas Krane Vingås-->
