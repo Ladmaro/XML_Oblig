@@ -53,10 +53,11 @@ body{
 }
 
 .hero .attr-btn{
-    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25vh;
     padding: 20px;
-    right: 35%;
-    top: 40%;
+    top: 50%;
 }
 
 .attr-btn{
@@ -103,7 +104,7 @@ body{
     display: block;
     text-align: center;
     height:400px;
-    width:700px;
+    width:100%;
 }
 
 .row {
